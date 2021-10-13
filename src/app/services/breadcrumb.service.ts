@@ -34,8 +34,8 @@ export class BreadcrumbService {
       this._currentRoute$.next('outbound');
     } else if (url.includes('hubs')) {
       this._currentRoute$.next('hubs');
-    } else if (url.includes('suppliers')) {
-      this._currentRoute$.next('suppliers');
+    } else if (url.includes('supply')) {
+      this._currentRoute$.next('supply');
     } else {
       this._currentRoute$.next('');
     }

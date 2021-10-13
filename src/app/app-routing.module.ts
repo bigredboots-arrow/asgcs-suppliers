@@ -19,7 +19,7 @@ import { OutboundReportsWavechartComponent } from './pages/outbound/outbound-rep
 import { OutboundReportsProfileComponent } from './pages/outbound/outbound-reports-profile/outboundReportsProfile.component';
 
 import { HubsComponent } from './pages/hubs/hubs/hubs.component';
-import { SuppliersComponent } from './pages/suppliers/suppliers/suppliers.component';
+import { SupplyComponent } from './pages/supply/supply/supply.component';
 import { SettingsComponent } from './pages/settings/settings/settings.component';
 
 const routes: Routes = [
@@ -145,8 +145,8 @@ const routes: Routes = [
     data: { title: '12Main Page', breadcrumb: '' },
   },
   {
-    path: 'suppliers',
-    component: SuppliersComponent,
+    path: 'supply',
+    component: SupplyComponent,
     data: { title: '15Main Page', breadcrumb: '' },
   },
   {

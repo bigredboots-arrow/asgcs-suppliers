@@ -1,9 +1,9 @@
 import { Component, Input, OnInit, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'suppliers',
-  templateUrl: './suppliers.component.html',
-  styleUrls: ['./suppliers.component.scss'],
+  selector: 'supply',
+  templateUrl: './supply.component.html',
+  styleUrls: ['./supply.component.scss'],
 })
 export class SuppliersComponent {
   @ViewChild('flocationsoverview') flocationsoverview: ElementRef;
