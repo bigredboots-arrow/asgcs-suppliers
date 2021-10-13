@@ -5,7 +5,7 @@ import { Component, Input, OnInit, ElementRef, ViewChild } from '@angular/core';
   templateUrl: './supply.component.html',
   styleUrls: ['./supply.component.scss'],
 })
-export class SuppliersComponent {
+export class SupplyComponent {
   @ViewChild('flocationsoverview') flocationsoverview: ElementRef;
   @ViewChild('treemapmoreinfo') treemapmoreinfo: ElementRef;
 
