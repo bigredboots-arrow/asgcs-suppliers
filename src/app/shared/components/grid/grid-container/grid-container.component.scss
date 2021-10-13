@@ -375,6 +375,12 @@
   flex-direction: column;
   justify-content: center;
 
+  &.four-totals {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .lines-value {
     display: flex;
     align-items: center;
