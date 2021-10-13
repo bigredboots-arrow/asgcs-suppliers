@@ -30,6 +30,7 @@ import { OutboundReportsWavechartComponent } from './pages/outbound/outbound-rep
 import { OutboundReportsProfileComponent } from './pages/outbound/outbound-reports-profile/outboundReportsProfile.component';
 
 import { HubsComponent } from './pages/hubs/hubs/hubs.component';
+
 import { SuppliersComponent } from './pages/suppliers/suppliers/suppliers.component';
 
 import { SettingsComponent } from './pages/settings/settings/settings.component';

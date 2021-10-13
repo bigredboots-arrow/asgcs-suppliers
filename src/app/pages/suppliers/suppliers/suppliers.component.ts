@@ -3,9 +3,9 @@ import { Component, Input, OnInit, ElementRef, ViewChild } from '@angular/core';
 @Component({
   selector: 'suppliers',
   templateUrl: './suppliers.component.html',
-  styleUrls: ['./suppliers.component.scss']
+  styleUrls: ['./suppliers.component.scss'],
 })
-export class HubsComponent {
+export class SuppliersComponent {
   @ViewChild('flocationsoverview') flocationsoverview: ElementRef;
   @ViewChild('treemapmoreinfo') treemapmoreinfo: ElementRef;
 
