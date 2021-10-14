@@ -56,6 +56,12 @@
   height: 5px;
   margin: 0px 7px 0px 3px;
 }
+.breadcrumb.supply span::after {
+  display: none;
+}
+.breadcrumb.hubs span::after {
+  display: none;
+}
 /*SEARCH */
 #toggle-search {
   opacity: 0;
@@ -592,6 +598,7 @@ button.search-submit {
   .breadcrumb {
     display: none;
   }
+
   .mobile-breadcrumb {
     display: flex;
     align-items: center;

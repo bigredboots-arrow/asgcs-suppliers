@@ -27,7 +27,11 @@
       </div>
       <input type="checkbox" id="toggle-search" />
       <div class="top-fields">
-        <nav aria-label="breadcrumb" role="navigation" class="breadcrumb">
+        <nav
+          aria-label="breadcrumb"
+          role="navigation"
+          class="breadcrumb {{ this.myBreadCrumb }}"
+        >
           <span>{{ this.myBreadCrumb }}</span>
           <app-breadcrumb></app-breadcrumb>
         </nav>
@@ -314,9 +318,9 @@
               </span>
             </div>
             <div class="filter-item">
-              <div class="filter-label">Dates</div>
+              <div class="filter-label">Owner</div>
               <span class="k-dropdown-wrap">
-                <span class="k-input">1 year</span>
+                <span class="k-input">Owner</span>
                 <span class="k-select">
                   <span class="k-icon k-i-arrow-s"></span>
                 </span>
@@ -324,9 +328,9 @@
             </div>
 
             <div class="filter-item">
-              <div class="filter-label">Type</div>
+              <div class="filter-label">Aging Category</div>
               <span class="k-dropdown-wrap">
-                <span class="k-input">Type</span>
+                <span class="k-input">Aging Category</span>
                 <span class="k-select"
                   ><span class="k-icon k-i-arrow-s"></span
                 ></span>
@@ -334,12 +338,26 @@
             </div>
 
             <div class="filter-item">
-              <div class="filter-label">Warehouse Name</div>
+              <div class="filter-label">Warehouse</div>
               <span class="k-dropdown-wrap"
                 ><span class="k-input">All Warehouses</span>
                 <span class="k-select"
                   ><span class="k-icon k-i-arrow-s"></span></span
               ></span>
+            </div>
+
+            <div class="filter-item filter-by">
+              <div class="filter-label">Filter</div>
+              <span class="k-dropdown-wrap">
+                <span class="k-input">Filter By</span>
+                <span class="k-select">
+                  <span class="k-icon k-i-arrow-s"></span>
+                </span>
+                <span
+                  class="k-textbox"
+                  contenteditable="contenteditable"
+                ></span>
+              </span>
             </div>
           </div>
 

@@ -68,6 +68,20 @@ a {
   cursor: pointer;
   border-left: 1px solid $grey-light;
 }
+.k-textbox {
+  background: #dcdcdc;
+  height: 24px;
+  border-radius: 0px 5px 5px 0px;
+  display: flex;
+  cursor: pointer;
+  border-left: 1px solid #999;
+  width: 100px;
+  color: black;
+  padding-left: 5px;
+  place-items: center;
+  font-size: 14px;
+  text-overflow: ellipsis;
+}
 .k-dropdown-wrap {
   padding: 0px;
   width: 100%;
@@ -89,6 +103,10 @@ a {
   border-right: 6px solid transparent;
   border-top: 6px solid $grey-darker;
 }
+.filter-by .k-select {
+  border-radius: 0px;
+}
+
 @media only screen and (max-width: 1200px) {
   .main-content.open .left-side-content .k-input span,
   .main-content.mobile .left-side-content .k-input span {
@@ -107,7 +125,7 @@ a {
 }
 .external-ui-link {
   position: absolute;
-  background: rgba(0, 0, 255, .7);
+  background: rgba(0, 0, 255, 0.7);
   border: 1px solid white;
   padding: 10px;
   width: 200px;
