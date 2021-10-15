@@ -51,7 +51,7 @@ a {
   padding: 0px 5px;
   background: $grey-lightest;
   color: $black;
-  font-size: $small-font;
+  font-size: $smaller-font;
   border-radius: 5px 0px 0px 5px;
   display: flex;
   align-items: center;
@@ -71,16 +71,37 @@ a {
 .k-textbox {
   background: #dcdcdc;
   height: 24px;
-  border-radius: 0px 5px 5px 0px;
-  display: flex;
-  cursor: pointer;
-  border-left: 1px solid #999;
+  border-radius: 5px;
+  border: 0px;
   width: 100px;
   color: black;
-  padding-left: 5px;
   place-items: center;
-  font-size: 14px;
-  text-overflow: ellipsis;
+  font-size: $smaller-font;
+  padding: 0px 3px 0px 5px;
+
+  &::placeholder {
+    color: $grey-light;
+  }
+}
+.advanced-link {
+  color: $blue-color;
+  font-size: $small-font;
+  padding-top: 4px;
+  margin-left: 10px;
+
+  &:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    transform: rotate(45deg);
+    border-color: $blue-color;
+    margin-left: 5px;
+    border-style: solid;
+    border-width: 0px 2px 2px 0px;
+    top: -2px;
+    position: relative;
+  }
 }
 .k-dropdown-wrap {
   padding: 0px;
